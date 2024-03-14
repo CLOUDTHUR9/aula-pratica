@@ -1,0 +1,16 @@
+console.clear();
+var teclado = require("prompt-sync")();
+var numero1 = parseFloat(teclado("digite um numero: "));
+var numero2 = parseFloat(teclado("digite um numero: "));
+var numero3 = parseFloat(teclado("digite um numero: "));
+var numero4 = parseFloat(teclado("digite um numero: "));
+var numero5 = parseFloat(teclado("digite um numero: "));
+var numero6 = parseFloat(teclado("digite um numero: "));
+var numero7 = parseFloat(teclado("digite um numero: "));
+var numero8 = parseFloat(teclado("digite um numero: "));
+var numero9 = parseFloat(teclado("digite um numero: "));
+var numero10 = parseFloat(teclado("digite um numero: "));
+console.clear();
+var media = 0;
+media = (numero1 + numero2 + numero3 + numero4 + numero5 + numero6 + numero7 + numero8 + numero9 + numero10) / 10;
+console.log(media);
